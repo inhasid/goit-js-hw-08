@@ -15,7 +15,7 @@ function onFormInput(e) {
       email: refs.formElement.elements.email.value,
       message: refs.formElement.elements.message.value,
   };
-  localStorage.setItem('feedback-form-local-data', JSON.stringify(objFormValue));
+  localStorage.setItem('feedback-local-data', JSON.stringify(objFormValue));
 }
 
 function onFormSubmit(e) {
